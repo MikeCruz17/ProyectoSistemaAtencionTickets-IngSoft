@@ -38,7 +38,6 @@ namespace ProyectoSistemaAtencionTickets.Concurrency
                 catch (Exception)
                 {
                     // Error omitido en consola para no interferir con el menú.
-                    // Si quieres, aquí podrías registrar un evento de error en BD.
                 }
             }
         }
