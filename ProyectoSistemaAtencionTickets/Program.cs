@@ -28,12 +28,6 @@ namespace ProyectoSistemaAtencionTickets
                 var monitor = new TicketMonitor();
                 var ticketService = new TicketService(contextFactory);
 
-                ticketService.OnEventoImportante += mensaje =>
-                {
-                    // No mostrar eventos automáticos en consola.
-                    // Se consultan desde el menú.
-                };
-
                 var generador = new TicketGenerator(monitor, ticketService);
                 var supervisor = new RealtimeSupervisor(monitor, ticketService);
 
