@@ -142,17 +142,11 @@ Además, se manejan errores en:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/tu-usuario/tu-repo.git](https://github.com/MikeCruz17/ProyectoSistemaAtencionTickets-IngSoft.git
 cd ProyectoFinalTickets
 ```
 
-### 2. Restaurar paquetes
-
-```bash
-dotnet restore
-```
-
-### 3. Configurar la cadena de conexión
+### 2. Configurar la cadena de conexión
 
 En `Program.cs`:
 
@@ -165,11 +159,7 @@ string connectionString =
 
 ---
 
-### 4. Ejecutar el proyecto
-
-```bash
-dotnet run
-```
+### 3. Ejecutar con Visual Studio
 
 ---
 
