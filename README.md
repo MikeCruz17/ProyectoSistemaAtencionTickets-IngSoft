@@ -143,7 +143,7 @@ Además, se manejan errores en:
 
 ```bash
 git clone https://github.com/tu-usuario/tu-repo.git](https://github.com/MikeCruz17/ProyectoSistemaAtencionTickets-IngSoft.git
-cd ProyectoFinalTickets
+cd ProyectoSistemaAtencionTickets
 ```
 
 ### 2. Configurar la cadena de conexión
